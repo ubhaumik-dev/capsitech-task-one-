@@ -1,0 +1,262 @@
+// code for 325, 375 and 425px
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!--first page-->
+    <header class="flex justify-around h-[10vh] bg-white w-full">
+        <img src="/images/Logo (5).png" alt="" class="h-20 w-20">
+        <ul class="flex justify-center h-[10vh] w-[40vw] mt-6 hidden">
+            <li> Features </li>
+            <li> About </li>
+            <li> Plans </li>
+            <li> Contact </li>
+        </ul>
+        <button class="h-[6vh] w-[25vw] bg-[#34D399] text-sm rounded mt-4 text-white"> Get started </button>
+    </header>
+     <div class="relative">
+        <img src="/images/Hero background (2).png" alt="" class="h-[90vh] w-[100vw] ">
+        <div class="absolute top-40 left-10 text-xl font-bold">
+            <p class="text-white"> IN DOLOR <span style="color: #34D399;">EUM </span> </p>
+            <p class="text-white"  style="color: #34D399;"> TOTAM ID SED </p>
+            <p class="text-white"> TEMPORIBUS </p>
+        </div>
+        <p class="text-white top-65 left-10 absolute "> Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
+lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
+fugiat aliqua.</p>
+  <button class="absolute top-90 left-10 h-[6vh] w-[25vw] bg-[#34D399] text-sm rounded mt-4 text-white "> Get started </button>
+  <button class="absolute top-90 left-35 h-[6vh] w-[25vw] bg-[#fff] text-sm rounded mt-4 text-green ml-4" style="color: #34D399;"> Our Work </button>
+    </div>
+    <!--second page-->
+    <div class="w-full ml-4 mt-8 mx-auto">
+        <p style="color: #475467;"> Ornare iaculis </p>
+        <p class="font-bold"> ENENATIS SEM</p>
+        <p class="font-bold"> ARCU PRETIUM</p>
+        <p> Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.</p>
+         <button class="h-[6vh] w-[25vw] bg-[#34D399] text-sm rounded mt-4 text-white"> Get started </button>
+    </div>
+    <div class="relative top-20 h-[300px]">
+        <img src="images/Image (7).png" alt="" class="absolute  h-30 w-50 left-20">
+        <img src="images/Image (8).png" alt="" class="absolute h-30 w-50  left-10 top-20">
+    </div>
+    <!--third page-->
+    <div class="ml-8 mt-12">
+        <p class="font-bold"> DUCIMUS ILLUM </p>
+        <p class="font-bold"> FUGIT ET</p>
+    </div>
+    <p class="ml-8 mt-4"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, esse. Ea temporibus corrupti accusamus pariatur harum iste officiis modi ducimus? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="grid grid-cols-1 ml-4 mt-12 gap-10">
+        <div class="ml-4"> 
+        <img src="/images/Vector (7).png" alt="" class="h-10 w-10">
+        <p class="font-bold"> Lorem ipsum </p>
+        <p> Lorem ipsum dolor sit amet 
+        consectetur adipisicing elit. Iure,
+        repellendus.</p>
+        </div>
+         <div class="ml-4"> 
+        <img src="/images/Icon (7).png" alt="" class="h-10 w-10">
+        <p class="font-bold"> Lorem ipsum </p>
+        <p> Lorem ipsum dolor sit amet 
+        consectetur adipisicing elit. Iure,
+        repellendus.</p>
+        </div>
+         <div class="ml-4"> 
+        <img src="/images/Icon (8).png" alt="" class="h-10 w-10">
+        <p class="font-bold"> Lorem ipsum </p>
+        <p> Lorem ipsum dolor sit amet 
+        consectetur adipisicing elit. Iure,
+        repellendus.</p>
+        </div>
+         <div class="ml-4"> 
+        <img src="/images/Vector (8).png" alt="" class="h-10 w-10">
+        <p class="font-bold"> Lorem ipsum </p>
+        <p> Lorem ipsum dolor sit amet 
+        consectetur adipisicing elit. Iure,
+        repellendus.</p>
+        </div>
+        <div class="ml-4"> 
+        <img src="/images/Icon (9).png" alt="" class="h-10 w-10">
+        <p class="font-bold"> Lorem ipsum </p>
+        <p> Lorem ipsum dolor sit amet 
+        consectetur adipisicing elit. Iure,
+        repellendus.</p>
+        </div>
+        <div class="ml-4"> 
+        <img src="/images/Vector (9).png" alt="" class="h-10 w-10">
+        <p class="font-bold"> Lorem ipsum </p>
+        <p> Lorem ipsum dolor sit amet 
+        consectetur adipisicing elit. Iure,
+        repellendus.</p>
+        </div>
+        <div class="ml-4"> 
+        <img src="/images/Icon (10).png" alt="" class="h-10 w-10">
+        <p class="font-bold"> Lorem ipsum </p>
+        <p> Lorem ipsum dolor sit amet 
+        consectetur adipisicing elit. Iure,
+        repellendus.</p>
+        </div>
+         <div class="ml-4"> 
+        <img src="/images/Icon (11).png" alt="" class="h-10 w-10">
+        <p class="font-bold"> Lorem ipsum </p>
+        <p> Lorem ipsum dolor sit amet 
+        consectetur adipisicing elit. Iure,
+        repellendus.</p>
+        </div>
+    </div>
+    <!--fourth page-->
+    <div class="w-[80%] mx-auto">
+        <div class="relative top-20 h-[400px]">
+        <img src="images/Image (9).png" alt="" class="absolute  h-40 w-50 left-10">
+        <img src="images/Image (10).png" alt="" class="absolute h-60 w-50  left-20 top-20">
+        </div>
+         <div class="ml-8 mt-8">
+        <p style="color: #475467;"> Semper curabitur  </p>
+        <p class="font-bold"> LECTUS VIVERRA</p>
+        <p class="font-bold"> DUI TELLUS</p>
+        <p> Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.</p>
+        <button class="h-[6vh] w-[25vw] bg-[#34D399] text-sm rounded mt-4 text-white"> Get started </button>
+        </div>
+        <div class="flex flex-col w-full mx-auto mt-6 gap-8">
+            
+            <div class="h-40 w-70 border border-gray-600 mx-auto"> 
+                <div class="ml-4"> 
+                <p class="font-bold"> SAEPE NECESSITATIBUS</p>
+                <p>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+            </div>
+            <div class="h-40 w-70 border border-gray-600 mx-auto"> 
+                <div class="ml-4"> 
+                <p class="font-bold"> LOREM IPSUM DOLOR </p>
+                <p>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+            </div>
+            <div class="h-40 w-70 border border-gray-600 mx-auto"> 
+                <div class="ml-4"> 
+                <p class="font-bold"> AMET CONSECTETUR</p>
+                <p>Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--fifth page-->
+   <div class="h-42 w-full bg-gradient-to-r from-emerald-600 to-green-400">
+    <div class="flex flex-col items-center justify-center w-full">
+        <p class="text-white mt-4"> Semper Curabitur </p>
+        <p class="font-bold text-white">LET'S TAKE YOUR BUSINESS</p>
+        <p class="font-bold text-white">TO THE NEXT LEVEL</p>
+        <button class="h-[6vh] w-[25vw] bg-transparent text-sm rounded mt-4 text-white border border-white">
+        Get started
+        </button>
+    </div>
+    </div>
+
+    <div class="h-[600px] w-full relative"> 
+    <div class="absolute inset-0">
+        <img src="/images/Background image (2).png" alt="" class="w-full h-40"/>
+    </div>
+    <div class="gap-8 h-120 w-[80%] mx-auto absolute bg-[#fff] mt-22 ml-8">
+        <div class="flex flex-col ml-4">
+            <p class="font-bold text-md"> ABOUT US WHO </p>
+            <p class="font-bold text-md"> WE ARE AND WHY</p> 
+            <p class="font-bold text-md"> AND WHY WE DO IT</p>
+        </div>
+        <div class="mt-8 ml-4">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem tincidunt facilisis lectus consectetur. At vitae in arcu, netus. At aenean eu at nisl dui. Venenatis, cum dui sit tincidunt pulvinar mauris. Rhoncus tincidunt purus laoreet natoque nisi.</p>
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium enim corporis doloremque! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+             <button class="h-[6vh] w-[50vw] bg-[#34D399] text-sm rounded mt-4 text-white"> company@gmail.com </button>
+        </div>
+    </div>
+    </div>
+    <div class="h-[80px] w-full mt-6">
+        <img src="/images/Companies (1).png"/>
+    </div>
+
+    <div class="flex flex-col items-center justify-center bg-[#F2F4F7]"> 
+    <div>
+        <p class="font-bold"> PRICING </p>
+        <p class="font-bold"> PLANS</p>
+    </div>
+    <p class="mt-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos, esse. Ea temporibus corrupti accusamus pariatur harum iste officiis modi ducimus? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <!--pricing plans container-->
+    <div class="flex flex-col align-center justify-center w-[85%] mx-auto gap-4">
+        <div class="h-100 w-70 border border-black flex flex-col align-center justify-center gap-4 w-full mx-auto">
+            <p class="font-bold text-xl"> Freelancer <div class="flex"> <p class="text-2xl"> $24</p><subscript class="text-sm"> /month </subscript></div></p>
+            <p> The essentials to provide your best work for clients </p>
+            <div class="flex"><img src="/images/Icon (12).png"/> <p> 5 products </p></div>
+            <div class="flex"><img src="/images/Icon (12).png"/> <p> Upto 1000 subscribers </p></div>
+            <div class="flex"><img src="/images/Icon (12).png"/> <p> Basic analytics </p></div>
+            <div class="flex"><img src="/images/Icon (12).png"/> <p> 48 hour support response time </p></div>
+          <button class="h-[6vh] w-[50vw] border border-[#34D399] text-sm rounded mt-4"> Monthly billing button </button>
+        </div>
+
+        <div class="h-120 w-70 border border-black flex flex-col align-center gap-4 w-full mx-auto">
+            <p class="font-bold text-xl"> Startup <div class="flex"> <p class="text-2xl"> $32</p><subscript class="text-sm"> /month </subscript></div></p>
+            <p> A plan that scales with your rapidly growing business. </p>
+            <div class="flex"><img src="/images/Icon (12).png"/> <p> 25 products </p></div>
+            <div class="flex"><img src="/images/Icon (12).png"/> <p> Upto 10000 subscribers </p></div>
+            <div class="flex"><img src="/images/Icon (12).png"/> <p> Advanced analytics </p></div>
+            <div class="flex"><img src="/images/Icon (12).png"/> <p> 24 hour support response time </p></div>
+             <div class="flex"><img src="/images/Icon (12).png"/> <p> Marketing automations </p></div>
+          <button class="h-[6vh] w-[50vw] border border-[#34D399] text-sm rounded mt-4"> Monthly billing button </button>
+        </div>
+
+        <div class="h-130 w-70 border border-black flex flex-col align-center gap-4 w-full mx-auto">
+            <p class="font-bold text-xl"> Freelancer <div class="flex"> <p class="text-2xl"> $24</p><subscript class="text-sm"> /month </subscript></div></p>
+            <p> Dedicated support and infrastructure for your company </p>
+            <div class="flex"><img src="/images/Icon (12).png"/> <p> Unlimited products </p></div>
+            <div class="flex"><img src="/images/Icon (12).png"/> <p> Unlimited subscribers </p></div>
+            <div class="flex"><img src="/images/Icon (12).png"/> <p> Advanced analytics </p></div>
+            <div class="flex"><img src="/images/Icon (12).png"/> <p> 1 hour dedicated support response time </p></div>
+            <div class="flex"><img src="/images/Icon (12).png"/> <p> Marketing automations </p></div>
+            <div class="flex"><img src="/images/Icon (12).png"/> <p> Custom integration </p></div>
+          <button class="h-[6vh] w-[50vw] border border-[#34D399] text-sm rounded mt-4"> Monthly billing button </button>
+        </div>
+    </div>
+
+    <div class="flex flex-col align-center justify-center gap-8"> 
+    <div class="flex flex-col mx-auto" > 
+        <p class="font-bold"> GET IN TOUCH </p>
+        <p class="font-bold"> WITH US</p>
+        <p> enquiries </p>
+        <p>company@gmail.com</p>
+        <p>+62 007 008 009</p>
+    </div>
+    <div class="w-[300px] mx-auto">
+        <div class=" w-[300px] mx-auto"> 
+        <div class="flex flex-col"> 
+        <p> First Name </p>
+        <input type="text" placeholder="" class="h-10 w-20 border border-black rounded">
+         <p> Last Name </p>
+        <input type="text" placeholder="" class="h-10 w-20 border border-black rounded">
+        </div>
+         <p> E-mail </p>
+        <input type="email" placeholder="" class="h-10 w-60 border border-black rounded">
+         <p> Phone-no </p>
+        <input type="email" placeholder="" class="h-10 w-60 border border-black rounded">
+         <p> Message </p>
+        <input type="email" placeholder="" class="h-30 w-60 border border-black rounded">
+         <button class="h-[6vh] w-[75vw] bg-[#34D399] text-sm rounded mt-4 text-white"> Let's Talk </button>
+        </div>
+    </div>
+    </div>
+
+    <div class=""> 
+    <div> 
+    <img src="/images/Logo (5).png" alt="" class="h-20 w-20 mx-auto" />
+    </div>
+    <div class="flex flex-col gap-4 w-[70%] mx-auto">
+        <p> Lorem ipsum dolor sit amet consectetur
+adipisicing elit. Deserunt, placeat.</p>
+<img src="/images/Frame 2.png" alt=""/>
+    </div>
+    </div>
+</body>
+</html>
